@@ -16,6 +16,7 @@ As vacinas necessitam de condições adequadas de armazenamento para manter sua 
 <p>
 Propõe-se o desenvolvimento de um sistema baseado em Internet das Coisas (IoT) e Rede de Sensores Sem Fio (RSSF) para realizar o monitoramento contínuo das condições de armazenamento das vacinas. O sistema será composto por sensores instalados no refrigerador e por um ESP32, responsável por receber e processar as informações obtidas. Essa abordagem permite automatizar a coleta dos dados e reduzir a dependência do monitoramento manual.
 </p>
+
 ![image alt](https://github.com/MarioPorco/TP546-IOT/blob/b67cb3f4c74f3fc102a8bff1cf83a4057a01fdcc/Diagrama%20de%20bloques_IoT.jpg)
 <p>
 A partir dos dados processados pelo ESP32, as informações serão transmitidas por meio de comunicação sem fio para um sistema de armazenamento, onde poderão ser registradas e consultadas posteriormente. Dessa forma, será possível acompanhar o histórico das condições do refrigerador e identificar rapidamente possíveis alterações. Caso seja detectada uma condição fora dos limites estabelecidos, o sistema poderá gerar um alerta para o usuário, permitindo uma intervenção mais rápida.
