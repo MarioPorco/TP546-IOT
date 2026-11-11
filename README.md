@@ -30,9 +30,9 @@ Para o monitoramento da temperatura, utiliza-se um sensor digital DS18B20, conec
 ![image alt](https://github.com/MarioPorco/TP546-IOT/blob/e898ae22712a54779e9afeb8827b7cdbf90c05e7/ESP32.png)
 ##### Modulo ESP32
 
-![image alt]([https://github.com/MarioPorco/TP546-IOT/blob/e898ae22712a54779e9afeb8827b7cdbf90c05e7/TipoK.png](https://github.com/MarioPorco/TP546-IOT/blob/5cee47a287a5353d4dba174de481fbe966e5730f/ds18b20.png
-)
-##### MAX31855 Termopar Tipo K
+![image alt](https://github.com/MarioPorco/TP546-IOT/blob/5cee47a287a5353d4dba174de481fbe966e5730f/ds18b20.png)
+
+##### DS18B20
 
 ![image alt](https://github.com/MarioPorco/TP546-IOT/blob/e898ae22712a54779e9afeb8827b7cdbf90c05e7/Littelfuse.png)
 ##### Littelfuse FLEX-14
