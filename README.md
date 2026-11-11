@@ -24,7 +24,7 @@ A partir dos dados processados pelo ESP32, as informações serão transmitidas 
 
 ### Sensores e processamento
 <p>
-Para o monitoramento da temperatura, propõe-se uma termopar tipo K associada ao MAX31855. Para detectar a abertura da porta, utiliza-se um sensor magnético. O ESP32 recebe essas informações e verifica se os valores estão dentro dos limites estabelecidos.
+Para o monitoramento da temperatura, utiliza-se um sensor digital DS18B20, conectado ao ESP32. A abertura e o fechamento da porta são representados por uma chave digital (slide switch). O ESP32 recebe essas informações e realiza a classificação local da temperatura, verificando se os valores permanecem dentro da faixa recomendada de 2 °C a 8 °C. Quando a temperatura ultrapassa esses limites, o sistema ativa os indicadores e alarmes correspondentes.
 </p>
 
 ![image alt](https://github.com/MarioPorco/TP546-IOT/blob/e898ae22712a54779e9afeb8827b7cdbf90c05e7/ESP32.png)
